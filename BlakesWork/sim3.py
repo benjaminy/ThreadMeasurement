@@ -17,7 +17,7 @@ def main():
         print ('Use the input csv file name as the first parameter and the delay length as the second.')
         exit(1)
 
-    simulate(delay, infile)
+    sim(delay, infile)
 
 def sim (delay, infile):
     config = yaml.safe_load(open('config.yml'))
