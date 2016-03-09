@@ -1,0 +1,15 @@
+sim_graphs:
+    min_delay: 0.0
+    max_delay: 0.0015
+    num_points: 10
+    simulator: sim3
+    save: False
+overlaps:
+    how_long_is_long: 0.0005
+sims:
+    num_processors: 4
+csv_to_graphs:
+    save_graph: False
+    save_info: False
+
+
